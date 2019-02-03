@@ -1,0 +1,44 @@
+
+
+.vs-section:nth-of-type(1) { background-image: url('../img/uno.JPG'); }
+
+.vs-section:nth-of-type(2) { background-image: url('../img/uno.JPG'); }
+
+.vs-section:nth-of-type(3) { background-image: url('../img/uno.JPG'); }
+
+.vs-section:nth-of-type(4) { background-image: url('../img/uno.JPG'); }
+
+.vs-section:nth-of-type(5) { background-image: url('../img/uno.JPG'); }
+
+.vs-vertical-nav {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  right: 3%;
+  bottom: auto;
+  display: block;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vs-vertical-nav a {
+  display: block;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  white-space: nowrap;
+  text-indent: 100%;
+  background: url('../img/arrow.svg') no-repeat center center;
+}
+
+.vs-vertical-nav a.vs-prev {
+  margin-bottom: 10px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
