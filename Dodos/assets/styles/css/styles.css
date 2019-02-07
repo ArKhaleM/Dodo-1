@@ -32,7 +32,6 @@ html {
   -ms-text-size-adjust: 100%; }
 
 html,
-button,
 input,
 select,
 textarea {
@@ -137,7 +136,6 @@ legend {
   white-space: normal;
   *margin-left: -7px; }
 
-button,
 input,
 select,
 textarea {
@@ -146,21 +144,9 @@ textarea {
   vertical-align: baseline;
   *vertical-align: middle; }
 
-button,
 input {
   line-height: normal; }
 
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
-  *overflow: visible; }
-
-button[disabled],
-input[disabled] {
-  cursor: default; }
 
 input[type="checkbox"],
 input[type="radio"] {
@@ -178,11 +164,6 @@ input[type="search"] {
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none; }
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
 
 textarea {
   overflow: auto;
@@ -252,28 +233,6 @@ a {
   text-decoration: none;
   color: #D92400; }
 
-button {
-  -webkit-font-smoothing: antialiased;
-  -webkit-border-radius: 24px;
-  -moz-border-radius: 24px;
-  border-radius: 24px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
-  background-clip: padding-box;
-  font-size: 1.33333em;
-  line-height: 45.6px;
-  font-family: "Dosis", sans-serif;
-  background-color: #F2F2F2;
-  font-weight: 600;
-  height: 48px;
-  width: 48px;
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  outline: none;
-  border: none; }
-  button.hide {
-    opacity: 0; }
 
 footer {
   position: absolute;
@@ -678,18 +637,36 @@ footer {
   margin-top: -1.9em;
   position: absolute;
   width: 100%;
-  top: 42%; }
+  top: 45%; }
 
-  .title-2 {
-    font-size: 3em;
-    text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
-    margin-top: -0.1em;
-    position: absolute;
-    width: 100%;
-    top: 42%; }
+.title-2 {
+  font-size: 3em;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.1em;
+  position: absolute;
+  width: 100%;
+  top: 47%; }
 
-.background {
-  background: url(../../images/background.png) no-repeat 50% 100%;
+.title-3 {
+  font-size: 3em;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -1.9em;
+  position: absolute;
+  width: 100%;
+  top: 55%; }
+
+.title-4 {
+  font-size: 3em;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.1em;
+  position: absolute;
+  width: 100%;
+  top: 54%; }
+
+
+
+.background-slider-1 {
+  background: url(../../images/home-1/background.png) no-repeat 50% 100%;
   bottom: 96px;
   background-size: cover;
   position: absolute;
@@ -697,6 +674,47 @@ footer {
   height: 110%;
   left: -5%;
   top: -12px; }
+
+.background-slider-2 {
+  background: url(../../images/home-2/background.png) no-repeat 50% 100%;
+  bottom: 96px;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -12px; }
+
+.background-slider-3 {
+  background: url(../../images/home-3/background.png) no-repeat 50% 100%;
+  bottom: 96px;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -12px; }
+
+.background-slider-4 {
+  background: url(../../images/home-4/background.png) no-repeat 50% 100%;
+  bottom: 96px;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -12px; }
+
+.background-slider-5 {
+  background: url(../../images/home-5/background.png) no-repeat 50% 100%;
+  bottom: 96px;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -12px; }
+
 
 .lighthouse {
   -webkit-transform-origin: 50% 90%;
@@ -787,7 +805,59 @@ footer {
     background-image: url(../../../img/home/rectangular-smoke-2.png); }
   
 
+.mountain-3 {
+  background: transparent;
+  position: absolute;
+  width: 300%;
+  left: -100%; }
+  .mountain-3:after {
+    
+    position: absolute;
+    display: block;
+    content: "";
+    height: 500px;
+    width: 100%;
+    top: 100%;
+    left: 0; }
+  .mountain-3.plain {
+    background-image: url(../../../img/home-2/rectangular-smoke-3.png); }
+  
 
+.mountain-4 {
+  background: transparent;
+  position: absolute;
+  width: 300%;
+  left: -100%; }
+  .mountain-4:after {
+    
+    position: absolute;
+    display: block;
+    content: "";
+    height: 500px;
+    width: 100%;
+    top: 100%;
+    left: 0; }
+  .mountain-4.plain {
+    background-image: url(../../../img/home-2/rectangular-smoke-4.png); }
+  
+
+.mountain-5 {
+  background: transparent;
+  position: absolute;
+  width: 300%;
+  left: -100%; }
+  .mountain-5:after {
+    
+    position: absolute;
+    display: block;
+    content: "";
+    height: 500px;
+    width: 100%;
+    top: 100%;
+    left: 0; }
+  .mountain-5.plain {
+    background-image: url(../../../img/home-5/rectangular-smoke-5.png); }
+  
 
 
 
@@ -1138,7 +1208,7 @@ footer {
     -moz-transform: scale(0.41667);
     transform: scale(0.41667); }
 
-.wave.depth-80 {
+.wave.depth-80, .depth-80-mountain-3 {
   -webkit-animation: wave 4.88889s 0.1s infinite linear;
   -moz-animation: wave 4.88889s 0.1s infinite linear;
   animation: wave 4.88889s 0.1s infinite linear;
@@ -1197,7 +1267,7 @@ footer {
     -moz-transform: scale(0.47222);
     transform: scale(0.47222); }
 
-.wave.depth-100 {
+.wave.depth-100, .depth-100-mountain-4, .depth-100-mountain-5  {
   -webkit-animation: wave 4s 0.1s infinite linear;
   -moz-animation: wave 4s 0.1s infinite linear;
   animation: wave 4s 0.1s infinite linear;
@@ -1324,7 +1394,7 @@ footer {
   html {
     font-size: 15px; }
 
-  button {
+  /*button {
     -webkit-border-radius: 28px;
     -moz-border-radius: 28px;
     border-radius: 28px;
@@ -1332,7 +1402,7 @@ footer {
     -moz-background-clip: padding-box;
     background-clip: padding-box;
     height: 56px;
-    width: 56px; }
+    width: 56px; }*/
 
   footer {
     padding: 0 10px 20px; }
@@ -2065,6 +2135,14 @@ footer {
     .depth-80:after {
       height: 57.6px; }
 
+  .depth-80-mountain-3 {
+    bottom: -90px;
+    margin: 0px 0px;
+    background-position: center bottom;
+    background-size: 45% 100%;
+    height: 330px; }
+    .depth-80:after {
+      height: 57.6px; }
       
   .rope.depth-80 {
     top: -18.33333%; }
@@ -2115,6 +2193,24 @@ footer {
     height: 288px; }
     .depth-100:after {
       height: 0px; }
+  
+    .depth-100-mountain-4 {
+    bottom: -120px;
+    margin: 0px 0px;
+    background-position: center bottom;
+    background-size: auto 101%;
+    height: 288px; }
+    .depth-100:after {
+      height: 0px; }
+
+    .depth-100-mountain-5 {
+    bottom: -30px;
+    margin: 0px 0px;
+    background-position: center bottom;
+    background-size: 45% 101%;
+    height: 288px; }
+    .depth-100:after {
+      height: 0px; }
 
   .rope.depth-100 {
     top: -25%; }
@@ -2122,7 +2218,7 @@ footer {
       -webkit-transform: scale(1.3);
       -moz-transform: scale(1.3);
       transform: scale(1.3); } }
-a, button {
+a {
   -webkit-transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   -moz-transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
@@ -2374,25 +2470,7 @@ a, button {
     -webkit-transform: rotateZ(-10deg);
     -moz-transform: rotateZ(-10deg);
     transform: rotateZ(-10deg); } }
-html.mouse a:hover, html.mouse button:hover {
-  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
-  -moz-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1); }
-html.mouse a:hover {
-  color: #ff755a; }
-html.mouse button:hover {
-  background-color: #D92400;
-  color: #FFFFFF; }
-html.mouse .toggle:hover .x, html.mouse .toggle:hover .y {
-  background-color: #FFFFFF; }
-html.mouse .links a:hover {
-  background-color: #D92400;
-  color: #FFFFFF; }
 
-html.touch a.tap, html.touch button.tap {
-  -webkit-transition: color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  -moz-transition: color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 html.touch a.tap {
   color: #ff755a; }
 html.touch button.tap {
@@ -2471,6 +2549,248 @@ html.touch .links a.tap {
   -webkit-perspective: 400;
           perspective: 400;
 }
+
+.view-moon {
+  position: absolute;
+  top: -59%;
+  left: -68%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-perspective: 400;
+          perspective: 400;
+}
+.view-moon img{
+  width: 500px;
+  height: auto;
+  position: absolute;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float2 4s ease-in-out infinite;
+}
+
+.planet-6 {
+  position: absolute;
+  top: -50%;
+  left: -85%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-perspective: 400;
+  perspective: 400;
+}
+
+.planet-6 img{
+  width: 300px;
+height: auto;
+position: absolute;
+overflow: hidden;
+transform: translatey(0px);
+animation: float2 4s ease-in-out infinite;
+}
+
+.planet-1 {
+  position: absolute;
+  top: -5%;
+  left: 0%;
+  right: 63%;
+  bottom: 0%;
+  -webkit-perspective: 400;
+          perspective: 400;
+}
+.planet-2 {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  right: 86%;
+  bottom: 0%;
+  -webkit-perspective: 400;
+          perspective: 400;
+}
+
+.planet-8 {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  right: 78%;
+  bottom: 0%;
+  -webkit-perspective: 400;
+  perspective: 400;
+}
+
+
+.planet-8 img {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float2 5s ease-in-out infinite;
+
+}
+
+
+
+
+
+.planet-3 img{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float2 4s ease-in-out infinite;
+  top: 300px;
+  right: 700px;
+
+}
+
+.planet-4 img{
+  width: 150px;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float2 4s ease-in-out infinite;
+    top: 379px;
+    right: 1126px;
+
+}
+
+
+.constelation-1 {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  right: 65%;
+  bottom: 0%;
+  -webkit-perspective: 400;
+          perspective: 400;
+}
+
+.constelation-2 {
+  position: absolute;
+  left: 74%;
+  margin-top: 2%;
+  width: 300px;
+}
+
+.planet-7 {
+  position: absolute;
+  left: 83%;
+  margin-top: 19%;
+  width: 100px;
+}
+
+.planet-facebook {
+  position: absolute;
+  left: 80%;
+  margin-top: 5%;
+  width: 150px;
+}
+
+
+.constelation-3 {
+  position: absolute;
+  margin-top: 350px;
+  right: 200px;
+  width: 230px;
+  -webkit-perspective: 400;
+  perspective: 400;
+
+}
+
+.eclipse-1 {
+  position: absolute;
+  margin-top: 450px;
+  right: 50px;
+  width: 230px;
+  -webkit-perspective: 400;
+  perspective: 400;
+
+}
+
+
+.dodo-1 {
+  position: absolute;
+  margin-top: 540px;
+  right: 3%;
+  width: 150px;
+  -webkit-perspective: 400;
+  perspective: 400;
+
+}
+
+.dodo-2 {
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  right: 83%;
+  bottom: 0%;
+  -webkit-perspective: 400;
+  perspective: 400;
+}
+
+.dodo-2 img {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float2 7s ease-in-out infinite;
+}
+
+
+
+
+.planet-instagram {
+  position: absolute;
+  margin-top: 510px;
+  right: 4%;
+  width: 230px;
+  -webkit-perspective: 400;
+  perspective: 400;
+
+}
+
+.planet-twitter img{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  overflow: hidden;
+  transform: translatey(0px);
+  left: 45%;
+  top: 40px;
+}
+
+.planet-youtube img{
+  width: 70px;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float2 4s ease-in-out infinite;
+  top: 30%;
+  right: 73%;
+  margin-top: 5%;
+}
+
+.dodo-rocket{
+  position: absolute;
+  display: inline-block;
+  margin-top: 650px;
+  margin-right: 100px;
+  width: 230px;
+  -webkit-perspective: 400;
+  perspective: 400;
+  right: 100px;
+
+}
+
+.constelation-1 img{
+  width:  380px!important;
+  height:  auto!important;
+}
+
+
 
 .plane {
   width: 120px;
@@ -2591,6 +2911,21 @@ html.touch .links a.tap {
 		transform: translatey(0px);
 	}
 }
+
+@keyframes float2 {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-30px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
 @-webkit-keyframes fadeini {
   from { opacity: 0.2; }
   to { opacity: 1; }
@@ -2623,13 +2958,57 @@ html.touch .links a.tap {
 
 .avatar-u img {
   position: absolute;
-	width: 450px;
-	height: 450px;
+	width: 410px;
+	height: 400px;
 	overflow: hidden;
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 
 }
+
+
+.planet-1 img {
+  position: absolute;
+	width: 150px;
+	height: 125px;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float2 5s ease-in-out infinite;
+
+}
+.planet-2 img {
+  position: absolute;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float2 7s ease-in-out infinite;
+
+}
+
+.planet-5 img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float2 5s ease-in-out infinite;
+  top: 300px;
+  left: 50%;
+}
+
+.satelite img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float2 7s ease-in-out infinite;
+  top: 650px;
+  left: 100px;
+
+}
+
 
 .avatar-u .vader-home-img {
   top:27%;
