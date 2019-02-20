@@ -3,7 +3,8 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--minimum-scale=1.0, user-scalable=yes,(esto arregla el problema en  tamaños de celular con fixed navvar y  width 100%-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=yes, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -51,8 +52,8 @@
               <a class="nav-link js-scroll-trigger" href="about.html">Acerca</a>
             </li>
             <li>
-                <img class="nav-form" src="img/home/form-1.png">
-              </li>
+              <img class="nav-form" src="img/home/form-1.png">
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="portafolio/IsometricGrids/index2.html">Portfolio</a>
             </li>
@@ -60,7 +61,7 @@
                 <img class="nav-form" src="img/home/form-1.png">
               </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="">Contacto</a>
+              <a class="nav-link js-scroll-trigger" href="contact.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -76,6 +77,7 @@
         <div class="view-responsive">
           <div class="row">
             <div class="col-md-12">
+              <img class="start-home-logo" src="img\home\main-logo.png">
               <h1 class="fw800 white revealOnScroll" data-animation="fadeInLeft">Bienvenido</h1>
               <p class="revealOnScroll" data-animation="fadeIn">Gracias por ingresar a mi website,
                   cada cliente tendrá atención 
@@ -196,15 +198,14 @@
       
       <div class="container my-auto">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <br>
-            <br>
-            <br>
+          <div class="col-md-12 responsive-logo text-center">
             <div class="animateOnce">
               <div class="second-animate">  
                 <img class="start-home-logo hvr-pulse" src="img\home\main-logo.png">
               </div>
             </div>
+          </div>
+          <div class="col-md-12 responsive-text text-center">
             <h1 class="fw800 white revealOnScroll my pangram-bold margin-140px font-title-dodos" data-animation="fadeInLeft">Bienvenido</h1>
             <br>
             <p class="revealOnScroll dodo-padding" data-animation="fadeIn">Gracias por ingresar a mi website,
@@ -239,7 +240,7 @@
             <div class="row">
               <div class="col-lg-12 mx-auto text-center">
                 <h1 class="section-heading title-logos font-title-dodos white pangram-bold revealOnScroll" data-animation="fadeInDown">LOGOS</h1>
-                <p class="mb-4 white revealOnScroll" data-animation="fadeIn">Personalizados para ti, funcionales, y adaptables a tus necesidades, garantizamos<br>
+                <p class="mb-4 white revealOnScroll" data-animation="fadeIn">Personalizados para ti, funcionales, y adaptables a tus necesidades, garantizamos<br class="br-none">
                     tu completa satisfacción con este trabajo, no olvides que sin una identidad la gente no te recordará.
                     </p>
                 <br>
@@ -268,6 +269,8 @@
         <img class="smoke-2 animate-float-4" src="img/home-4/forma.png">
         <img class="smoke-3 animate-float-4" src="img/home-3/forma.png">
         <img class="constelation-10" src="img/home-3/circulos.png">
+        <img class="constelation-10a" src="img/home-3/circulos.png">
+        <img class="constelation-10b" src="img/home-3/circulos.png">
         <img class="constelation-8 animate-float-3" src="img/home-3/planet.png">
         <img class="constelation-9 animate-float-2" src="img/home-3/planet-2.png">
         <img class="constelation-11 animate-float-2" src="img/home-4/planet.png">
@@ -279,6 +282,7 @@
         <img class="constelation-17 animate-float-2" src="img/home-5/planeta-twitter.png">
         <img class="constelation-18 animate-float-3" src="img/home-5/planeta-facebook.png">
         <img class="constelation-19 animate-float-2" src="img/home-5/planeta-instagram.png">
+        
         <div class="stars-section">
           <div class="stars-section3">
             <div class="row pt100c row-custon">
@@ -409,6 +413,7 @@
           </div>
         </div>
       </div>
+      <img class="constelation-10c" src="img/home-3/circulos.png">
       <img class="smoke-4 animate-float-4" src="img/home-7/forma.png">
       <img class="smoke-5 animate-float-4" src="img/home-7/forma-2.png">
       <img class="constelation-20 animate-float-3" src="img/home-6/planeta.png">
@@ -420,13 +425,13 @@
       <div class="stars-section">
         <div class="stars-section3">
           <div class="row row-custon pt200">
-            <div class="col-md-12 mx-auto center">
+            <div class="col-md-12 mx-auto center  pshome4">
               <h1 class="title-services-home white revealOnScroll" data-animation="fadeInDown">Diseño Audiovisual</h1>
               <br>
               <p class="revealOnScroll white" data-animation="fadeIn">
-                ¿Necesitas hacer promociones a través de videos?, <br>
-                Hay una gran importancia en el hecho de que gracias a la tecnología,<br>
-                es posible difundir un mensaje, cualquiera sea su naturaleza, a través de videos y Gif. <br>
+                ¿Necesitas hacer promociones a través de videos?, <br class="br-none">
+                Hay una gran importancia en el hecho de que gracias a la tecnología,<br class="br-none">
+                es posible difundir un mensaje, cualquiera sea su naturaleza, a través de videos y Gif. <br class="br-none">
                 Está comprobado que esta es una de las tácticas de redes sociales más exitosa. 
               </p>
               <br>
@@ -493,13 +498,6 @@
 
     <script  src="vendor/animate.css/index.js"></script>
 
-    <script>
-      var beepOne = $("#beep-one")[0];
-        $("#nav-one img")
-          .mouseenter(function() {
-            beepOne.play();
-          });
-    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119373752-1"></script>
