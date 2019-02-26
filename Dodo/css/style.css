@@ -68,6 +68,28 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 50px;
     }
 }
+.color-about ul li a{
+    color: #fff!important;
+}
+.color-about-e ul li a{
+    color:#5b5b5b!important;
+}
+
+.font-weight-about{
+    font-weight: 900!important;
+    font-family: 'Pangram Bold', sans-serif!important;
+}
+
+
+.height-c{
+    height: 100%;
+}
+
+.height-contact{
+    height: 80%!important;
+    position: absolute;
+    width: 100%;
+}
 .padding-mountain-2{
     width: 100%;
 }
@@ -343,7 +365,7 @@ header.masthead2 {
 .planet-diseno{
     position: absolute;
     text-align: center;
-    top: 32%;
+    top: 30%;
     left: 10%;
 }
 @media (max-width: 1200px){
@@ -362,12 +384,12 @@ header.masthead2 {
     }
 }
 .planet-diseno img{
-    margin-bottom: -38px;
-    margin-top: -62px;
+    margin-bottom: -25px;
+    margin-top: -45px;
 }
 .planet-tecnologia{
     position: absolute;
-    top: 43%;
+    top: 48%;
     left: 0;
     right: 0;
     text-align: center;
@@ -376,46 +398,39 @@ header.masthead2 {
     margin-right: auto;
 }
 @media (max-width: 992px){
+    .planet-diseno{
+        padding-top: 50px;
+    }
+    .planet-diseno img{
+        width: 61%;
+        margin-bottom: -10px;
+    margin-top: -34px;
+    }
+}
+
+.planet-tecnologia img{
+    margin-bottom: -25px;
+    margin-top: -45px;
+}
+@media (max-width: 992px){
     .planet-tecnologia{
         padding-top: 50px;
     }
     .planet-tecnologia img{
         width: 29%;
+        margin-bottom: -5px;
+        margin-top: -34px;
     }
-}
-@media (max-height: 850px){
-    .planet-tecnologia{
-        padding-top: 40px;
-    }
-    .planet-tecnologia img{
-        width: 20%;
-    }
-    .planet-redes {
-        padding-top: 40px;
-    }
-    .planet-redes img{
-        width: 65%
-    }
-    .planet-diseno{
-        padding-top: 40px;
-    }
-    .planet-diseno img{
-        width: 65%;
-    }
-}
-.planet-tecnologia img{
-    margin-bottom: -38px;
-    margin-top: -62px;
 }
 .planet-redes{
     position: absolute;
     text-align: center;
-    top: 36%;
+    top: 27%;
     right: 10%;
 }
 .planet-redes img{
-    margin-bottom: -38px;
-    margin-top: -62px;
+    margin-bottom: -25px;
+    margin-top: -45px;
 }
 @media (max-width: 1200px){
     .planet-redes{
@@ -428,6 +443,8 @@ header.masthead2 {
     }
     .planet-redes img{
         width: 61%;
+        margin-bottom: -16px;
+        margin-top: -35px;
     }
 }
 .main-planet img{
@@ -440,6 +457,32 @@ header.masthead2 {
     width: 50%;
     top: 55%;
     left: 1%;
+}
+@media (max-height: 850px){
+    .planet-tecnologia{
+        padding-top: 40px;
+    }
+    .planet-tecnologia img{
+        width: 17%;
+        margin-bottom: -10px;
+        margin-top: -30px;
+    }
+    .planet-redes {
+        padding-top: 40px;
+    }
+    .planet-redes img{
+        width: 46%;
+        margin-bottom: -10px;
+        margin-top: -30px;
+    }
+    .planet-diseno{
+        padding-top: 0px;
+    }
+    .planet-diseno img{
+        width: 49%;
+        margin-bottom: -10px;
+        margin-top: -30px;
+    }
 }
 @media (max-width: 1600px){
     .cell-phone{
@@ -585,7 +628,7 @@ header.masthead2 {
 
 .container-f{
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 0; 
     margin-left: auto;
     margin-right: auto;
@@ -2099,6 +2142,7 @@ header.masthead2 {
 @media (max-width: 600px){
     .tecnologia-c img{
         max-width: 90%;
+        z-index: 9999;
     }
     .colum-mid{
         width: 50%;
@@ -2218,6 +2262,7 @@ header.masthead2 {
         color: #fff;
     }
 }
+
 @media (min-width: 776px){
     .disheader-2{
         display: none!important;
@@ -2920,3 +2965,32 @@ header.masthead2 {
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
   }
+
+  .colapse-1{
+    position: absolute;
+    margin-top: 255px;
+    left: 43%;
+    letter-spacing: 2.5pt;
+
+  }
+  .colapse-2{
+    position: absolute;
+    margin-top: 12px;
+    left: 17%;
+    letter-spacing: 2.5pt;
+  }
+  .colapse-3{
+    position: absolute;
+    margin-top: 12px;
+    left: 21%;
+    letter-spacing: 2.5pt; 
+  }
+@media (max-height: 850px){
+    .colapse-1{
+        position: absolute;
+        margin-top: 190px;
+        left: 41%;
+        letter-spacing: 2.5pt;
+    
+      }
+}
