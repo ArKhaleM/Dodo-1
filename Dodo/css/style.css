@@ -654,7 +654,7 @@ header.masthead2 {
 }
 @media (max-width: 768px){
     .video2-home{
-        padding: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 0px;
     }
 }
 .title-services-home{
@@ -2044,7 +2044,7 @@ header.masthead2 {
 
 .view-smoke-5{
     position: absolute; 
-    bottom: 0;
+    bottom: 20px;
     width: 103%;
     -webkit-perspective: 400;
             perspective: 400;
@@ -2969,7 +2969,7 @@ header.masthead2 {
 
   .colapse-1{
     position: absolute;
-    margin-top: -580px;
+    margin-top: -138px;
     letter-spacing: 2.5pt;
     margin-right: auto;
     margin-left: auto;
@@ -2989,19 +2989,13 @@ header.masthead2 {
     left: 21%;
     letter-spacing: 2.5pt; 
   }
-@media (max-height: 850px){
-    .colapse-1{
-        position: absolute;
-        margin-top: -370px;
-        letter-spacing: 2.5pt;
-    
-      }
+@media (max-width: 768px) {
+    .no-padding-left{
+        padding-left: 0px;
+    }
 }
-@media (max-width: 992px){
-    .colapse-1{
-        position: absolute;
-        margin-top: -468px;
-        letter-spacing: 2.5pt;
-    
-      }
+@media (max-width: 768px) {
+    .no-padding-right{
+        padding-right: 0px;
+    }
 }
