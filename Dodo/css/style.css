@@ -191,10 +191,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -2px;
 }
 .bg-footer2{
+    padding: 100px 0;
     background: url(../img/contacto/footer/cuadrado-azul.jpg) no-repeat;
+    margin-top: -2px;
     background-size: cover;
-    height: 20%;
-    position: relative;
     box-shadow: inset 0 25px 40px -10px #000;
 }
 header.masthead {
@@ -215,7 +215,8 @@ header.masthead2 {
     /*background-image: -webkit-gradient(linear,left top, right top,from(#110c13),to(#170d17));
     background-image: linear-gradient(180deg,#210620,#080613);*/
     padding-top: 0;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 @media (max-width: 558px){
     header.masthead {
@@ -1894,7 +1895,7 @@ header.masthead2 {
     left: 0;
     width: 102%;
     height: 121%;
-    box-shadow: inset 0px -20px 20px 9px #000;
+    /*box-shadow: inset 0px -20px 20px 9px #000;*/
     margin-top: -98px;
 }
 .planet-home-img-some-space-resposive{
@@ -1986,7 +1987,7 @@ header.masthead2 {
     width: 103%;
 }
 .view-smoke-responsive-c img{  
-    width: 110%;
+    width: 120%;
     margin-left: -58px;
     z-index: 1;
     box-shadow: inset 0px -20px 20px 9px #000;
@@ -2968,9 +2969,12 @@ header.masthead2 {
 
   .colapse-1{
     position: absolute;
-    margin-top: 255px;
-    left: 43%;
+    margin-top: -580px;
     letter-spacing: 2.5pt;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
 
   }
   .colapse-2{
@@ -2988,8 +2992,15 @@ header.masthead2 {
 @media (max-height: 850px){
     .colapse-1{
         position: absolute;
-        margin-top: 190px;
-        left: 41%;
+        margin-top: -370px;
+        letter-spacing: 2.5pt;
+    
+      }
+}
+@media (max-width: 992px){
+    .colapse-1{
+        position: absolute;
+        margin-top: -468px;
         letter-spacing: 2.5pt;
     
       }
